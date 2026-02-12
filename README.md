@@ -55,20 +55,16 @@
 ## 📸 Demo
 
 ### Main Analysis View
-![ATS Analysis Dashboard](screenshots/ats-analysis.png)
+![ATS Analysis Dashboard](screnshots/output.jpeg)
 *Real-time ATS scoring with skill breakdown and match percentage*
 
 ### Skill Gap Visualization
-![Skill Matching](screenshots/skill-matching.png)
 *Visual comparison of matched skills vs. missing keywords*
 
-### AI Enhancement Panel
-![AI Suggestions](screenshots/ai-enhancement.png)
-*Optional AI-powered resume improvement suggestions*
 
-### Upload Interface
-![Upload Resume](screenshots/upload-interface.png)
-*Simple drag-and-drop resume upload with instant parsing*
+### dashboard
+![Upload Resume](screenshots/main-dashboard.jpeg)
+*dashboard*
 
 > **Note:** Screenshots show sample data. Your actual resume content remains private.
 
