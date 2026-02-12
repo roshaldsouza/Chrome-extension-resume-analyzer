@@ -55,7 +55,7 @@
 ## 📸 Demo
 
 ### Main Analysis View
-![ATS Analysis Dashboard](screnshots/output.jpeg)
+![ATS Analysis Dashboard](screenshots/output.jpeg)
 *Real-time ATS scoring with skill breakdown and match percentage*
 
 ### Skill Gap Visualization
@@ -378,3 +378,4 @@ If this project helped you land an interview, give it a ⭐!
 Made with ❤️ for job seekers everywhere
 
 </div>
+
