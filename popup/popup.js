@@ -6,6 +6,13 @@ const resumeInput = document.getElementById("resume");
 const jdInput = document.getElementById("jd");
 const analyzeBtn = document.getElementById("analyze");
 const resultDiv = document.getElementById("result");
+const SKILLS = new Set([
+  "javascript","typescript","react","angular","vue",
+  "node","express","python","java",
+  "sql","mongodb","postgresql",
+  "docker","kubernetes","aws",
+  "rest","api","git","github"
+]);
 
 async function extractTextFromPDF(file) {
   const arrayBuffer = await file.arrayBuffer();
@@ -45,12 +52,33 @@ function calculateATSScore(resumeText, jdText) {
   const jdKeywords = extractKeywords(jdText);
   const resumeWords = new Set(resumeText.split(" "));
 
-  const matched = jdKeywords.filter(word => resumeWords.has(word));
-  const missing = jdKeywords.filter(word => !resumeWords.has(word));
+  let score = 0;
+  let maxScore = 0;
 
-  const score = Math.round((matched.length / jdKeywords.length) * 100);
+  const matched = [];
+  const missing = [];
 
-  return { score, matched, missing };
+  jdKeywords.forEach(word => {
+    let weight = 1;
+
+    if (SKILLS.has(word)) weight = 3;
+    else if (word.length > 6) weight = 2;
+
+    maxScore += weight;
+
+    if (resumeWords.has(word)) {
+      score += weight;
+      matched.push(word);
+    } else {
+      missing.push(word);
+    }
+  });
+
+  return {
+    score: Math.round((score / maxScore) * 100),
+    matched,
+    missing
+  };
 }
 
 
