@@ -20,13 +20,21 @@ Adds AI enhancements only when the user opts in
 ✨ Features
 
 ✅ Upload resume in PDF format
+
 ✅ Paste job description
+
 ✅ ATS-style match score (%)
+
 ✅ Skill-based weighted scoring logic
+
 ✅ Highlights matched vs missing skills
+
 ✅ Clean, modern UI with animations
+
 ✅ Optional AI enhancement (user-provided API key)
+
 ✅ No backend server required
+
 ✅ Privacy-friendly (everything runs locally)
 
 📸 Screenshots
@@ -137,4 +145,5 @@ Computer Science | Full Stack | AI Projects
 ⭐ If You Like This Project
 
 Give it a ⭐ on GitHub — it helps a lot!
+
 
