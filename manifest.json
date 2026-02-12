@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Resume ATS Analyzer",
+    "description": "Analyze resumes against job descriptions using ATS-style scoring with optional AI enhancement.",
+    "version": "1.0.0",
+    "action": {
+      "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  

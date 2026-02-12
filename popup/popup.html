@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Resume ATS Analyzer</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h2>Resume ATS Analyzer</h2>
+
+    <label>Upload Resume (PDF)</label>
+    <input type="file" id="resume" accept=".pdf" />
+
+    <label>Job Description</label>
+    <textarea id="jd" rows="6"></textarea>
+
+    <button id="analyze">Analyze</button>
+
+    <div id="result"></div>
+
+    <!-- IMPORTANT: module script -->
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
