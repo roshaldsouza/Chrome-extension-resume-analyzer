@@ -4,8 +4,12 @@
     "description": "Analyze resumes against job descriptions using ATS-style scoring with optional AI enhancement.",
     "version": "1.0.0",
     "action": {
-      "default_popup": "popup/popup.html"
-    },
+  "default_popup": "popup/popup.html",
+  "default_icon": {
+    "16": "icons/icon16.png"
+  }
+},
+
     "permissions": [
       "storage"
     ],
