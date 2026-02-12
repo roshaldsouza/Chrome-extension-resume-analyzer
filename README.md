@@ -6,10 +6,15 @@ A hybrid, AI-ready Chrome extension that analyzes resumes against job descriptio
 
 Resume ATS Analyzer helps job seekers understand how well their resume matches a job description by simulating how Applicant Tracking Systems (ATS) work.
 
+
 Unlike simple keyword checkers, this extension:
+
 Uses weighted scoring
+
 Prioritizes technical skills
+
 Works fully offline
+
 Adds AI enhancements only when the user opts in
 
 ✨ Features
@@ -132,3 +137,4 @@ Computer Science | Full Stack | AI Projects
 ⭐ If You Like This Project
 
 Give it a ⭐ on GitHub — it helps a lot!
+
