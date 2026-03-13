@@ -66,9 +66,6 @@
 ![Upload Resume](screenshots/main-dashboard.jpeg)
 *dashboard*
 
-> **Note:** Screenshots show sample data. Your actual resume content remains private.
-
----
 
 ## 🚀 Installation
 
@@ -133,8 +130,6 @@
    - Apply recommended changes to your resume
 
 > **Privacy Note:** AI features are opt-in. Your resume is only sent to OpenAI when you explicitly click "Enhance with AI."
-
----
 
 ## 🏗 Architecture
 
@@ -378,4 +373,5 @@ If this project helped you land an interview, give it a ⭐!
 Made with ❤️ for job seekers everywhere
 
 </div>
+
 
